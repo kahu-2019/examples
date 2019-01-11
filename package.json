@@ -5,10 +5,16 @@
   "license": "MIT",
   "scripts": {
     "spaghetti": "echo 'yummy'",
-    "git": "git status"
+    "git": "git status",
+    "test": "jest --watch --noStackTrace"
   },
   "dependencies": {
     "colors": "^1.3.3",
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
