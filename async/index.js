@@ -29,6 +29,11 @@ console.log('next')
 console.log('file done')
 
 fs.readFile('./index.js', 'utf8', (err, data) => {
-  fs.writeFile('./index.js', 'ho ho ho')
+  //console.log(data)
+  //fs.writeFile('./index.js', 'ho ho ho')
 })
-"ho ho ho""ho ho ho"
+
+fs.writeFile('merry-christmas.txt', 'ho ho ho', (err, res) => {
+  console.log(err)
+  console.log(res)
+})
